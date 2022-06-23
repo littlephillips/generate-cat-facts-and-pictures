@@ -79,7 +79,7 @@ width: 60%;
 
 .context {
   width: 80%;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
   margin: auto;
   overflow: hidden;
@@ -175,7 +175,7 @@ footer a {
  }
 
  #cat-data-container{
-  height : 38em;
+  height : 38 em;
  }
  
  #cat-data-container li{
