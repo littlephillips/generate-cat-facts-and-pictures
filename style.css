@@ -33,40 +33,87 @@ body{
   margin-top: 15px; 
   justify-content: center; 
 } 
-
 .container button:hover {
-    transition: .5s;
-    background: linear-gradient(120deg, #2980b9, #8e44ad);
-  
-  }
-  
+  transition: .5s;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
 
-  
-  #cat-generator, #modes, #cat-fact-generator{
-    background-color:  transparent;
-    letter-spacing: 2px;
-    border-color: #adadaa;
-    border-radius: 1em;
-    color:aliceblue;
-    border: 2px solid ;
-    font-size: 16px;
-    cursor: pointer;
+}
+
+#cat-generator, #modes, #cat-fact-generator{
+background-color:  transparent;
+letter-spacing: 2px;
+border-color: #adadaa;
+border-radius: 1em;
+color:aliceblue;
+border: 2px solid ;
+font-size: 16px;
+cursor: pointer;
+margin-top: 2px;   
     margin-top: 2px;   
-    margin-left: 15px;
+margin-top: 2px;   
+margin-left: 15px;
+margin-bottom: 2px;  
     margin-bottom: 2px;  
-    transition: all 0.3s 0s ease-in-out;
-   
-  } 
-  
-  #cat-generator{
-    width: 25%;
+margin-bottom: 2px;  
+transition: all 0.3s 0s ease-in-out;
+
+} 
+
+#cat-generator{
+width: 25%;
+}
+
+#cat-fact-generator {
+width: 60%;
+}
+
+#modes { 
+ width: 25%;   
   }
   
-  #cat-fact-generator {
-    width: 60%;
-  }
-  
-  #modes { 
-     width: 25%;   
-  }
-  
+/*styling the cat image & fact containers*/
+
+
+.context {
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#cat-image-container{
+  width: 50%;
+  float: left;
+  height: 40em;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width : 700px;
+  height: 600px; 
+  padding-top: 30px; 
+} 
+
+
+#cat-data-container{
+  width: 50%;
+  float: right;
+  height: 40em;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 30px;
+} 
+
+
+li {
+  padding: 30px;
+  margin-bottom:5px;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+}
