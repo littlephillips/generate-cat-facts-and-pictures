@@ -1,11 +1,15 @@
     //eventlisteners
 
+    
     document.addEventListener('DOMContentLoaded', () => {
-
+    //cat images
     let catGeneration = document.getElementById("cat-generator");
     catGeneration.addEventListener('click', generateCats)
   
-    //cat fact
+    //cat facts
+    let catFactGenerator = document.getElementById("cat-fact-generator");
+    catFactGenerator.addEventListener('click', generateCatFacts)
+
     //light modes
 
 
@@ -30,6 +34,30 @@
 
   }
 
+    //generating cat facts
+    
+  function generateCatFacts(){
+    fetch('https://brianiswu-cat-facts-v1.p.rapidapi.com/facts', {
+      method: 'GET',
+      headers: {
+        'X-RapidAPI-Key': 'abd9343adfmsh3034d615139dff9p193554jsn3b451274579c',
+        'X-RapidAPI-Host': 'brianiswu-cat-facts-v1.p.rapidapi.com'
+        },
+    })
 
+    .then(res => res.json())
+    .then(data => {
+      let menu = document.getElementById('cat-data-container')
+      menu.innerHTML = ''
+      for (elem of data){
+          let li = document.createElement('li')
+          li.textContent = elem.text
+          menu.append(li)
+           menu.style.border = "1px solid #adadaa"
+      }
+    })
+  }
+
+  
 
     })   
