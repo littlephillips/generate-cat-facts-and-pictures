@@ -37,8 +37,7 @@ ul{
   justify-content: center; 
 } 
 .container button:hover {
-  transition: .5s;
-  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  background: linear-gradient(120deg, #031f56, #38044f);
 
 }
 
