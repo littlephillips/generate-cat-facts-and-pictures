@@ -11,6 +11,8 @@
     catFactGenerator.addEventListener('click', generateCatFacts)
 
     //light modes
+    const buttonSwitch = document.getElementById("modes");
+    buttonSwitch.addEventListener('click', darkMode);
 
 
   //fetch requests
@@ -37,6 +39,9 @@
     //generating cat facts
     
   function generateCatFacts(){
+    let menu = document.getElementById('cat-data-container')
+    menu.innerHTML = ''
+
     fetch('https://brianiswu-cat-facts-v1.p.rapidapi.com/facts', {
       method: 'GET',
       headers: {
@@ -58,6 +63,22 @@
     })
   }
 
+
+  //switch light to dark mode
   
 
-    })   
+  function darkMode(e){
+    if(document.body.style.backgroundColor == "rgb(10, 15, 34)"){
+      document.body.style.backgroundColor = "#606A74"
+    } else {
+      document.body.style.backgroundColor = "rgb(10, 15, 34)"
+    }
+
+    if(buttonSwitch.textContent == "light mode"){
+      buttonSwitch.textContent = "dark mode"
+   } else {
+      buttonSwitch.textContent = "light mode"
+   }
+
+  }
+})   
