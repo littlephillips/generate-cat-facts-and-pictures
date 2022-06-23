@@ -12,8 +12,11 @@ body{
   color:aliceblue;
 }
 
-/*ul*/
-
+ul{
+  margin : 0;
+  padding: 0;
+  list-style-type: none;
+}
 
 .header {
   height: 60px;
@@ -135,3 +138,57 @@ footer a {
   width: 100px;
   font-size: large;  
 }
+
+
+
+/*media max -width 1110px*/
+
+@media only screen and (max-width: 1100px) {
+  body{
+   overflow: auto;
+  }
+   .header { 
+     font-size: 13px; 
+  }
+ 
+  #cat-image-container{
+   width: 100%;
+ }
+ 
+ img {
+   display: block; 
+   margin-left: auto;
+   margin-right: auto;
+   width : 540px;
+   border:none;
+ } 
+  #cat-data-container{
+    width: 100%;
+  }
+ 
+  #cat-generator{
+   width: 40%;
+ }
+ 
+ #cat-fact-generator {
+   width: 48%;
+ }
+
+ #cat-data-container{
+  height : 38em;
+ }
+ 
+ #cat-data-container li{
+    font-size :medium;
+  }
+
+ #modes { 
+    width: 37%;   
+ }
+ 
+ footer {
+  display: none;
+ }
+ 
+ 
+ } 
