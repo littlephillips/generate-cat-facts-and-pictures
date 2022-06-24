@@ -109,32 +109,13 @@ img {
 } 
 
 
-li {
+#cat-data-container li {
   padding: 30px;
   margin-bottom:5px;
   color: aliceblue;
   font-size: 20px;
   font-weight: bold;
 }
-
-/*footer*/
-
-footer{
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  margin-top: 15px;
-  border-radius: 18px;
-}
-
-footer a {
-  padding: 10px;
-  color: aliceblue;
-  text-decoration: none;
-  width: 100px;
-  font-size: large;  
-}
-
 
 
 /*media max -width 1110px*/
@@ -181,10 +162,5 @@ footer a {
  #modes { 
     width: 37%;   
  }
- 
- footer {
-  display: none;
- }
- 
  
  } 
