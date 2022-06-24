@@ -5,15 +5,13 @@
  <br>
 
 
--  This is a [cat facts and image generator](https://littlephillips.github.io/generate-cat-facts-and-pictures/)
-there are three buttons on the homepage<br>
-- First one is a cat image generator, has an event click which helps the user to request data from the server.
-- The second button is for cat facts generator, similary has a click event which when executed sends a request to the server to get cat facts 
-- The third one is for switching backgroud color from dark themed background to light themed
+-  This is a [cat facts and image generator](https://littlephillips.github.io/generate-random-cat-pictures/)
+there are two buttons on the homepage<br>
+- First one is a cat image generator, has a click event which when executed sends a request to the server to get cat images
+- The second one is for switching backgroud color from dark themed background to light themed
 
 
-
-- 📝 I wrote an article and touched on this project [https://medium.com/@phillipkinuthia72/first-5-weeks-learning-programming-fbf044d36f7d](https://medium.com/@phillipkinuthia72/first-5-weeks-learning-programming-fbf044d36f7d)
+- 📝 I wrote an article and touched on this project[https://medium.com/@phillipkinuthia72/first-5-weeks-learning-programming-fbf044d36f7d]
 
 - 💬 Ask me about **HTML5, CSS and JS**
 
